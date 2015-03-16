@@ -1,0 +1,40 @@
+<hr>
+
+<article <?php post_class( 'entry' ); ?>>
+  <header class="entry-header">
+    <?php the_title( sprintf( '<h1 class="entry__title"><a href="%s">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
+  </header>
+
+  <div class="entry__content">
+    <?php the_content(); ?>
+
+    <hr>
+
+    <h4>Date</h4>
+    <pre><?php var_dump( tbf_event_date() ); ?></pre>
+
+    <h4>Time</h4>
+    <pre><?php var_dump( tbf_event_time() ); ?></pre>
+
+    <h4>Hide time?</h4>
+    <pre><?php var_dump( tbf_event_hide_time_range() ); ?></pre>
+
+    <h4>Time Description</h4>
+    <pre><?php var_dump( tbf_event_time_description() ); ?></pre>
+
+    <h4>Venue</h4>
+    <pre><?php var_dump( tbf_event_venue() ); ?></pre>
+
+    <h4>Address</h4>
+    <pre><?php var_dump( tbf_event_address() ); ?></pre>
+
+    <h4>Show directions link?</h4>
+    <pre><?php var_dump( tbf_event_show_directions_link() ); ?></pre>
+
+    <h4>Map</h4>
+    <pre><?php var_dump( tbf_event_map() ); ?></pre>
+
+    <h4>Categories</h4>
+    <pre><?php var_dump( tbf_event_categories() ); ?></pre>
+  </div>
+</article>
