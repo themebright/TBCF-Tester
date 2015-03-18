@@ -29,6 +29,9 @@ function tbft_sidebars() {
 }
 add_action( 'init', 'tbft_sidebars' );
 
+/**
+ * Adds theme support for the features we're a wantin'.
+ */
 function tbft_theme_support() {
 
   add_theme_support( 'title-tag' );
