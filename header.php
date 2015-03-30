@@ -11,6 +11,8 @@
     </div>
   </nav>
 
-  <pre><strong>Theme Name</strong>: <?php echo TBF_THEME_NAME; ?><br>
-<strong>Theme Author</strong>: <?php echo TBF_THEME_AUTHOR; ?><br>
+  <pre><strong>Theme Author</strong>: <?php echo TBF_THEME_AUTHOR; ?><br>
+<strong>Theme Author URI</strong>: <?php echo TBF_THEME_AUTHOR_URI; ?><br>
+<strong>Theme Name</strong>: <?php echo TBF_THEME_NAME; ?><br>
+<strong>Theme URI</strong>: <?php echo TBF_THEME_URI; ?><br>
 <strong>Theme Version</strong>: <?php echo TBF_THEME_VERSION; ?></pre>
