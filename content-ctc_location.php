@@ -16,6 +16,9 @@
     <h4>Show directions link?</h4>
     <pre><?php var_dump( tbf_location_show_directions_link() ); ?></pre>
 
+    <h4>Directions URL</h4>
+    <pre><?php var_dump( tbf_location_directions_url() ); ?></pre>
+
     <h4>Phone</h4>
     <pre><?php var_dump( tbf_location_phone() ); ?></pre>
 
