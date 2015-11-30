@@ -1,6 +1,6 @@
     <hr>
 
-    <ul><?php dynamic_sidebar(); ?></ul>
+    <ul><?php dynamic_sidebar( 'sidebar' ); ?></ul>
 
     <?php wp_footer(); ?>
   </body>

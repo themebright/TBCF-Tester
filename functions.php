@@ -24,7 +24,10 @@ add_action( 'wp_enqueue_scripts', 'tbft_assets' );
  */
 function tbft_sidebars() {
 
-  register_sidebar();
+  register_sidebar( array(
+    'name' => 'Sidebar',
+    'id'   => 'sidebar'
+  ) );
 
 }
 add_action( 'init', 'tbft_sidebars' );
