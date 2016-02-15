@@ -11,30 +11,30 @@
     <hr>
 
     <h4>Has full text?</h4>
-    <pre><?php var_dump( tbf_sermon_has_full_text() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_has_full_text() ); ?></pre>
 
     <h4>Video</h4>
-    <pre><?php var_dump( tbf_sermon_video() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_video() ); ?></pre>
 
     <h4>Audio</h4>
-    <pre><?php var_dump( tbf_sermon_audio() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_audio() ); ?></pre>
 
     <h4>PDF</h4>
-    <pre><?php var_dump( tbf_sermon_pdf() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_pdf() ); ?></pre>
 
     <h4>Topics</h4>
-    <pre><?php var_dump( tbf_sermon_topics() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_topics() ); ?></pre>
 
     <h4>Books</h4>
-    <pre><?php var_dump( tbf_sermon_books() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_books() ); ?></pre>
 
     <h4>Series</h4>
-    <pre><?php var_dump( tbf_sermon_series() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_series() ); ?></pre>
 
     <h4>Speakers</h4>
-    <pre><?php var_dump( tbf_sermon_speakers() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_speakers() ); ?></pre>
 
     <h4>Tags</h4>
-    <pre><?php var_dump( tbf_sermon_tags() ); ?></pre>
+    <pre><?php var_dump( tbcf_sermon_tags() ); ?></pre>
   </div>
 </article>

@@ -11,18 +11,18 @@
     <hr>
 
     <h4>Position</h4>
-    <pre><?php var_dump( tbf_person_position() ); ?></pre>
+    <pre><?php var_dump( tbcf_person_position() ); ?></pre>
 
     <h4>Phone</h4>
-    <pre><?php var_dump( tbf_person_phone() ); ?></pre>
+    <pre><?php var_dump( tbcf_person_phone() ); ?></pre>
 
     <h4>Email</h4>
-    <pre><?php var_dump( tbf_person_email() ); ?></pre>
+    <pre><?php var_dump( tbcf_person_email() ); ?></pre>
 
     <h4>URLs</h4>
-    <pre><?php var_dump( tbf_person_urls() ); ?></pre>
+    <pre><?php var_dump( tbcf_person_urls() ); ?></pre>
 
     <h4>Groups</h4>
-    <pre><?php var_dump( tbf_person_groups() ); ?></pre>
+    <pre><?php var_dump( tbcf_person_groups() ); ?></pre>
   </div>
 </article>
