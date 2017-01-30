@@ -16,6 +16,8 @@ function tbcft_assets() {
   wp_enqueue_style( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css', array( 'tbcf' ) );
   wp_enqueue_script( 'bootstrap', '//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js', array( 'jquery' ) );
 
+  wp_enqueue_script( 'tbcf-maps' );
+
 }
 add_action( 'wp_enqueue_scripts', 'tbcft_assets' );
 
